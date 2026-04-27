@@ -3,11 +3,7 @@ pipeline {
 
     stages {
 
-        stage('Clone Repo') {
-            steps {
-                git 'https://github.com/laksh1107/auto-qa-reporter.git'
-            }
-        }
+        
 
         stage('Build Docker Image') {
             steps {
